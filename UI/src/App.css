@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+
+div ul li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  cursor: pointer;
+}
+
+/* In your CSS file */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit browsers (like Chrome and Safari) */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer and Edge */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+
