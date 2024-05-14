@@ -1,0 +1,31 @@
+nav {
+  background: #000;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  padding: 0 5vw;
+}
+
+nav ul {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+  align-items: center;
+  height: 60%;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 20px;
+}
+
+.Links {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
